@@ -3,25 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
 </head>
 <body>
-    <h1>WEBDEV Class -1 </h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem voluptatibus<br> ad quasi maxime fugit excepturi omnis animi 
-        temporibus, quam laudantium labore<br> non fugiat rem quas nemo ut possimus, aspernatur qui!</p>
-        <br>
-        <a href="dsandesh370@gmail.com">Mail Me</a>
-        <br>
-        <h2>This is me sandesh dahal </h2>
-        <h3>Bsc. hons cybersecurity and ethical hacking </h3>
-        <h4> header tag are  6 types which use for heading , Heading means representative of something  </h4>
-        <h5>This is h5 tag </h5>
-        <h6>This is final tag which is h6  </h6>
-        <br>
-        <a href="https://www.youtube.com/">click for watch video</a>
-        <img src="Data-Privacy.jpg">
+    <form style="background-color:blue; position: absolute; height: 80%; width: 40%; position: absolute`;">
+    <fieldset>
+        <legend> The practice Form</legend>
+    <h1>Student Regestration form</h1>
+    <label for="fname"><b>First Name:</b></label>
+    <input type="text" name="firstname" placeholder="Enter your name">
+    <br>
+    <label for="lname"><b>Name:</b> </label>
+    <input type="text" name="fname" placeholder="Enter your last name ">
+    <br>
+    <label for="`Email" autofocus ><b>Email</b></label>
+    <input type="text" name="Email" placeholder="Enter your name">
+    <br>
+    <label for="Pheone number"><b>Phone</b></label>
+    <input type="number" name="number" value="phone">
+    <br>
+    <label for="Gender"><b>Gender</b></label>
+    <input type="radio" name="Male" > male
+    <input type="radio" name="Female">Female
+    <input type="radio" name="Others"> Others
+    <br>
+                                                                        <!-- Checkbox tag  -->
+     <label for="Subject"><b>Subject:</b></label>
 
+    <input type="checkbox" name="Subject" value="Math">Math
+    <input type="checkbox" name="Subject" value="Physics">Physics
+    <input type="checkbox" name="Subj" value="chemistry">chemistry
+    <br>
+    <br>
+                                                                         <!-- disabled tag -->
+                                                                         <!-- 
+    <label for="course"> Choose a course:</label>
+    <Select name="car" id="cars" disabled>
+        <option value="JAVA">JAVA</option>
+        <option value="C++">C++</option>
+        <option value="WEBDEV">WEVDEV</option>
+        <option value="English">English</option>
+    </Select>
+-->
+    <br>
+    
+                                                                     <!-- autofocus tag -->
+                                                                     <!-- 
+   <label for="course"> Choose a course:</label>
+    <Select name="car" id="cars" autofocus>
+        <option value="JAVA">JAVA</option>
+        <option value="C++">C++</option>
+        <option value="WEBDEV">WEVDEV</option>
+        <option value="English">English</option>
+    </Select>
+     -->
+     <!--     <br>
+    <br>
+                            <!-- multiple tag   which is allow to choose multipple option -->
+    <label for="course"> <b>Choose a course:</b></label>
+    <Select name="car" id="cars">
+        <option value="JAVA">JAVA</option>
+        <option value="C++">C++</option>
+        <option value="WEBDEV">WEVDEV</option>
+        <option value="English">English</option>
+    </Select>
+    <br>
+    <br>
+
+     <!-- requird tag or empty  which is specifies the user must be select the value before submuit -->
+     <!-- 
+    <label for="course"> Choose a course:</label>
+    <Select name="car" id="cars" required>
+        <option value="empty"></option>
+        <option value="JAVA">JAVA</option>
+        <option value="C++">C++</option>
+        <option value="WEBDEV">WEVDEV</option>
+        <option value="English">English</option>
+    </Select>
+    <br>
+-->
+
+
+    <label for="review"> <b>Write something About me</b></label>
+    <br>
+    
+    <textarea id="review3" name="review3" rows="4" cols="50" maxlength="60" placeholder="Write something about me " wrap="hard"></textarea>
+    <br>
+     <br>
+ <label for="Cars"> <b>Choose your favourite Subject:</b></label>
+ <select name="cars" id="cars">
+<optgroup label="Ethical hacking Course">
+    <option value="FOundationof cybersecurity">FOundationof cybersecurity</option>
+    <option value="C programming">C programming</option>
+</optgroup>
+ <optgroup label="Computing sub">
+<option value="JAVA">JAVA</option>
+<option value="DBMS">DBMS</option>
+ 
+</optgroup>
+
+ </select>
+   <br>
+    <br>
+    <button type="Submit"><b>Submiit</b></button>
+
+    <button type="reset"><b>Reset</b></button>
+</fieldset>
+</form>
 
 </body>
 </html>
